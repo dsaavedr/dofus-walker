@@ -4,4 +4,4 @@ import os
 
 bm = bitmap.capture_screen()
 cd = os.getcwd()
-bm.save(cd + "\\test.png")
+bm.save(cd + "\\imgs\\test.png")
