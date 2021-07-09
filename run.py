@@ -1,3 +1,7 @@
+# Start script for walking
+# TODO: deal with delay between map-changes, walking and loading.
+# TODO: add 'move' method to walker package.
+
 from Walker import BetterMouse
 from autopy import bitmap
 import os
