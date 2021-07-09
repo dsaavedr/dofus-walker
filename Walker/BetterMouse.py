@@ -47,13 +47,16 @@ class BetterMouse():
             self.update()
         print("Done!")
         print(s)
-        print(self.location())
+        print(f"Current mouse position: {self.location()}")
 
     def location(self):
         return mouse.location()
 
     def move(self, x, y):
         return mouse.move(x, y)
+
+    def click(self, btn=None, delay=None):
+        return mouse.click(btn, delay)
 
     def update(self):
         x, y = self.location()
